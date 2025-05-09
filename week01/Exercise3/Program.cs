@@ -31,12 +31,12 @@ class Program
 
             if (playAgain == "yes")
         {
-            RandomNumber = randomGenerator.Next(1, 101); // Generate a new number
-            guess = -1; // Reset guess
+            RandomNumber = randomGenerator.Next(1, 101);
+            guess = -1; 
         }
             else
         {
-            break; // Exit the loop
+            break;
         }
         }
         }
