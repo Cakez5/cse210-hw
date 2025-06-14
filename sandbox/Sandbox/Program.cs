@@ -1,9 +1,11 @@
 using System;
+using System.Windows.Forms;
 
-class Program
+static class Program
 {
-    static void Main(string[] args)
+    [STAThread]
+    static void Main()
     {
-        Console.WriteLine("Hello World! This is the Sandbox Project.");
+        Application.Run(new GameForm());
     }
 }
